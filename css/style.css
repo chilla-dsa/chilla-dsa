@@ -332,7 +332,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle{
     color: #6f6f6f;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
     nav.navbar.navbar-inverse ul.nav .dropdown-menu{
         background-color: #222 !important;
         border-left: solid 1px #303030 !important;
@@ -372,7 +372,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle{
         color: #3f3f3f;
     }
 }
-@media (max-width: 992px)  {
+@media (max-width: 767px)  {
     nav.navbar.navbar-inverse .navbar-toggle{
         color: #eee;
         background-color: #222 !important;
@@ -450,7 +450,7 @@ nav.navbar-dark ul.nav li.dropdown.on > a{
     color: #f43438 !important;
 }
 
-@media(max-width:920px){
+@media(max-width:767px){
     nav.navbar .dropdown .megamenu-content .col-menu ul > li > a:hover,
     nav.navbar.navbar-dark .dropdown .megamenu-content .col-menu .title:hover{
         color: #f43438 !important;
