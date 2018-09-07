@@ -504,15 +504,15 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
 /* Navbar Responsive
 =================================*/
-@media (min-width: 1024px) and (max-width:1400px) {
+/*@media (min-width: 1024px) and (max-width:1400px) {
     body.wrap-nav-sidebar .wrapper .container{
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
     }
-}
+}*/
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
     /* General Navbar
     =================================*/
     nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
@@ -988,7 +988,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     /* Navbar Responsive
     =================================*/ 
     nav.navbar.bootsnav .navbar-brand    {
