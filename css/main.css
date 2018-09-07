@@ -193,7 +193,7 @@ span {
 
 /*media queries*/
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) {
 	.header {
 		height: 500px;
 		background: url(../images/bg_992.jpg) no-repeat center center;
@@ -240,7 +240,7 @@ span {
 	}
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 768px) {
 	.header {
 		background: url(../images/bg_576.jpg) no-repeat center center;
 	}
