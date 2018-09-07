@@ -22,9 +22,11 @@ h1, h2, h3, h4 {
 }
 
 .title {
-	padding: 250px 0;
+	padding-top: 170px;
+	padding-bottom: 50px;
+	/*padding: 150px 0;*/
 	color: #fff;
-	width: 600px;
+	/*width: 600px;*/
 }
 
 .title__heading {
@@ -48,7 +50,8 @@ section {
 }
 
 .block {
-	height: 600px;
+	/*height: 520px;	*/
+	height: auto;
 }
 
 .black {
@@ -64,15 +67,16 @@ section {
 	text-align: center;
 }
 
-.block__title {
+ .block .block__title {
 	text-align: center;
+	padding: 0 15px;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .block__description  {
 	color: #fff;
-	padding: 20px 30px;
+	padding: 0 15px;
 	text-align: center;
 	font-size: 15px;
 }
@@ -105,7 +109,7 @@ span {
 
 .text__desc {
 	color: #fff;
-	padding: 25px 50px 0 0;
+	padding: 25px 50px 20px 0;
 	font-size: 15px;
 }
 
@@ -137,22 +141,23 @@ span {
 
 .skins__desc {
 	color: #fff;
-	/*padding: 25px 50px 0 0;*/
+	padding: 0px 25px 20px 0;
 	font-size: 15px;
+	width: auto;
 }
 
 .contacts {
 	background: #383338;
-}
-
-.contacts-logo {
-	padding-top: 120px;
-	width: 200px;
+	/*text-align: center;*/
 }
 
 .contacts__title {
 	color: #fff;
 	text-align: center;
+}
+
+.form-group label, input{
+	margin: 0 auto;
 }
 
  .contacts__form label, input, textarea{
@@ -167,8 +172,12 @@ span {
 	padding-left: 5px;
 	margin-right: 20px;
 	border: 0;
-	/*padding-left: 23px;*/
+	padding-left: 23px;
 	outline: none;
+}
+
+.form__control {
+	margin: 0 auto;
 }
 
 .cnopka {
@@ -188,98 +197,10 @@ span {
 }
 
 .inde {
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 }
 
 /*media queries*/
-
-@media screen and (min-width: 768px) {
-	.header {
-		height: 500px;
-		background: url(../images/bg_992.jpg) no-repeat center center;
-	}
-
-	.title {
-		padding-top: 200px;
-	}
-
-	.block__img {
-		padding: 40px 0 20px;
-	}
-
-	.products__title {
-		text-align: center;
-	}
-
-	.accessories__title {
-		text-align: center;
-	}
-
-	.skins {
-		padding-left: 15px;
-	}
-
-	.accessories__piсture  {
-		text-align: center;
-	}
-
-	.text__desc {
-		padding: 5px 0 15px;
-	}
-
-	.contacts-logo {
-		display: none;
-	}
-
-	.contacts__title {
-		padding-bottom: 15px;
-	}
-
-	.contacts__form label {
-		font-size: 15px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.header {
-		background: url(../images/bg_576.jpg) no-repeat center center;
-	}
-
-	.title {
-		width: auto;
-		padding-top: 250px;
-	}
-
-	.title__heading {
-		font-size: 50px;
-	}
-
-	.block {
-		margin: 0 40px 40px;
-		padding: 0 50px;
-		height: auto;
-	}
-
-	.skins__desc {
-		margin-bottom: 40px;
-	}
-
-	.form-group .form__control label, input, textarea  {
-		width: 100%;
-	}
-
-	.cnopka  {
-		width: 100%;		
-	}
-
-	.inde {
-		padding-top: 10px;
-	}
-
-	.adres p{
-		text-align: center;
-	}
-}
 
 
 
