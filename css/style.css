@@ -65,8 +65,10 @@ h1, h2, h3, h4 {
 }
 
 .header {
+  position: absolute;
   background: url(../images/bg_12.jpg) no-repeat center center;
-  /*width: 100%;*/
+  width: 100%;
+  left: 0px;
   height: 100vh;
 }
 
