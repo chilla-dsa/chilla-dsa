@@ -57,6 +57,13 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+section {
+  padding: 50px 0 50px;
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
 .menu__item a {
   /*color: #004868 !important;*/
   font-size: 20px;
@@ -92,10 +99,6 @@ h1, h2, h3, h4 {
 .title__desc {
   font-size: 25px;
   font-family: 'Sintony', sans-serif;
-}
-
-section {
-  padding: 50px 0 50px;
 }
 
 .about {
