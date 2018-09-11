@@ -1,3 +1,5 @@
+
+
 .navbar {
 	background: #383838;
 }
@@ -39,7 +41,7 @@ section {
   background: url(../img/bg_12.jpg) no-repeat center center;
   /*width: 100%;*/
   height: 100vh;
-  display: table;
+  /*display: table;*/
   width: 100%;
   /*height: 100vh;*/
   background-attachment: fixed;
@@ -50,7 +52,7 @@ section {
 .title {
   padding: 250px 0;
   color: #fff;
-  width: 600px;
+  /*width: 600px;*/
 }
 
 .title__heading {
@@ -67,6 +69,9 @@ section {
 
 .about {
   background: #B0D074;
+  height: 100vh;
+  display: table;
+  width: 100%;
 }
 
 .block {
