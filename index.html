@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,20 +13,9 @@
 
     <!-- font-awesome css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
-    <!-- font-awesome animation -->
-    <link rel="stylesheet" href="css/font-awesome-animation.css">
-
-    <!-- custome fonts -->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> -->
-
-    <!-- magnific and owl (для карусели) -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
+    
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css">      
 
     <!-- wow -->
     <link rel="stylesheet" href="css/animate.css">
@@ -36,8 +25,7 @@
     <!-- countTo (важна последовательность подключения скриптов) -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/waypoints.js"></script>
+    
 
     <!-- wow -->
     <script src="js/wow.js"></script>
@@ -52,8 +40,7 @@
      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/logo-1.png" width="60" height="" alt="logo"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">        
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -74,24 +61,9 @@
         </div>
       </div>
     </nav>
-
-    <!-- <section class="header" id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title">
-                        <h1 class="title__heading">
-                            Племенные семьи шиншилл
-                        </h1>
-                        <p class="title__desc">
-                            украинский центр шиншиловодства
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
+    <!-- end navigation -->    
+    
+    <!-- header -->
     <header class="masthead">
       <div class="intro-body">
         <div class="container">
@@ -111,7 +83,9 @@
         </div>
       </div>
     </header>
+    <!-- end header -->
 
+    <!-- about -->
     <section class="about" id="about">
         <div class="container">
             <div class="row">
@@ -157,7 +131,9 @@
             </div>
         </div>
     </section>
+    <!-- end about -->
 
+    <!-- products -->
     <section class="products" id="products">
         <div class="container">
             <div class="row">
@@ -168,7 +144,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 wow fadeInRight">
+                <div class="col-lg-12">
                     <div class="products__picture">
                         <img src="images/second_bg.jpg" class="img-fluid" alt="">
                     </div>
@@ -208,7 +184,9 @@
             </div>
         </div>
     </section>
+    <!-- end products -->
 
+    <!-- accessories -->
     <section class="accessories" id="accessories">
         <div class="container">
             <div class="row">
@@ -218,7 +196,7 @@
                     </h2>
                 </div>
             </div>
-            <div class="row wow fadeInRight">
+            <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <img src="images/kletka_01.jpg" alt="" class="accessories__piсture">
                 </div>
@@ -233,7 +211,7 @@
                     </div>
                 </div>    
             </div>
-            <div class="row wow fadeInLeft">
+            <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <img src="images/vydelka.jpg" alt="" class="accessories__piсture">
                 </div>
@@ -250,63 +228,9 @@
             </div>
         </div>
     </section>
+    <!-- end accessories -->
 
-    <!-- <section class="contacts" id="contacts">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="images/logo-1w.png" alt="" class="contacts-logo">
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <form action="" method="" class="contacts__form">
-                        <h3 class="contacts__title">
-                             Быстрая связь
-                        </h3>
-
-                        
-                         <div class="form-group">
-                             <label for="">Введите Ваше имя</label>
-                             <input type="text" class="form__control" name="user__name" placeholder="например Иван" required="">
-                         </div>
-
-                        
-                         <div class="form-group">
-                             <label for="">Введите Ваш электронный адрес</label>
-                             <input type="email" class="form__control" name="user__mail" placeholder="например ivan@gmail.com" required="">
-                         </div>
-
-                         
-                         <div class="form-group">
-                             <label for="">Введите Ваш номер телефона</label>
-                             <input type="Tel" class="form__control" name="user__phone" placeholder="на Ваше усмотрение" required="">
-                         </div>
-
-                         
-                         <div class="form-group">
-                             <label for="">Введите сообщение</label>
-                             <textarea name="text" id="" cols="30" rows="5" placeholder="краткий текст"></textarea>
-                         </div>
-
-                         <button type="submit" class="  cnopka">Отправить</button>
-                    </form>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="contacts__adress">
-                         <h3 class="contacts__title">
-                             Почтовый адрес
-                         </h3>
-                         <div class="text__desc adres">
-                             <p class="inde">080 300 200</p>
-                             <p>Украина, г. Киев, пер. Толбухина 7</p>
-                             <p>т. +380 63 100 4787</p>
-                             <p>т. +380 50 033 3852</p>
-                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
+    <!-- contact -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="row">
@@ -349,7 +273,7 @@
                     </div>
                 </div>             
             </div>
-              <div class="row wow fadeInRight">                  
+              <div class="row">                  
                     <div class="col-lg-4 ml-auto">
                         <div class="cosmo d-flex justify-content-end">
                             <div class="cosmo__img">
@@ -365,7 +289,7 @@
               </div>  
         </div>
     </section>
-
+    <!-- end contact -->
     
 
 
@@ -379,52 +303,6 @@
     <!-- custom script -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/grayscale.min.js"></script>
-    <!-- text animation in the hero section -->
-    <script src="js/typed.js"></script>
-    <!-- gallery popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- creative скрипт из другого шаблона. Удалить если не повлияет на работоспособность  -->
-    <!-- <script src="js/creative.min.js"></script> -->
-    <!-- разная инициализация -->
-    <script src="js/main.js"></script>
-    
-
-     <script>
-        $('.timer').countTo()
-    </script>
-
-
-    <!-- инициализация count js -->
-    <script type="text/javascript">
-                $('.timer').each(function(i, el){
-                    $.waypoints('refresh'); 
-
-                    function animateNumber(){
-                        $('.timer').countTo({
-                                                       
-                        });
-                    }
-
-                    $(this).waypoint(function(direction) {
-                        if (direction === 'down') {
-                            animateNumber();
-                        }
-                    }, {
-                        offset: 'bottom-in-view'
-                    })
-                });
-            </script>
-    
-    <!-- Инициализация скрипта анимированого текста в первой секции -->
-    <script>
-  var typed2 = new Typed('#typed-text', {
-    strings: ['профи', 'классные', 'стилисты', 'команда'],
-    typeSpeed: 100,
-    backSpeed: 20,
-    loop: true
-  });
-</script>
 
      
   </body>
